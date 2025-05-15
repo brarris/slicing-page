@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  background: #048853;
+  background: linear-gradient(
+    135deg,
+    rgba(4, 136, 83, 1) 0%,
+    rgba(0, 0, 0, 0.84) 100%
+  );
+}

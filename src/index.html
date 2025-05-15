@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- hero section -->
+    <section class="min-h-screen relative linear-green-bg text-white">
+      <!-- backgrounds -->
+      <div class="background">
+        <img
+          src="/assets/images/left-hero-bg.png"
+          alt="left-hero-bg"
+          class="absolute left-0 top-0 h-screen"
+        />
+        <img
+          src="../assets/images/right-hero-bg.png"
+          alt="right-hero-bg"
+          class="absolute right-0 bottom-0 h-[90%]"
+        />
+      </div>
+      <div id="hero" class="pl-24 pt-12 pr-24 relative z-10">
+        <!-- navigation bar -->
+        <nav class="flex justify-between items-center">
+          <div id="logo" class="flex items-center gap-2">
+            <img
+              src="../assets/images/logo.png"
+              alt="logo"
+              width="30px"
+              height="30px"
+            />
+            <b class="text-[20px]">Rumah Impian</b>
+          </div>
+          <div id="menu">
+            <ul class="flex gap-4 uppercase">
+              <li>Beranda</li>
+              <li>Layanan</li>
+              <li>Fitur</li>
+              <li>Kontak</li>
+            </ul>
+          </div>
+          <div id="buttons">
+            <button class="w-[133px] h-[40px] uppercase">Daftar</button>
+            <button
+              class="w-[133px] h-[40px] uppercase bg-white text-[#048853]"
+            >
+              <b>Masuk</b>
+            </button>
+          </div>
+        </nav>
+        <div class="container w-[574px] flex flex-col gap-9 mt-40">
+          <b class="text-[52px]">Membantu Temukan Rumah Impian.</b>
+          <p>
+            <b>Rumah Impian</b> hadir untuk temukan rumah terbaik untukmu, untuk
+            di jual ataupun di sewa dengan sumber terpercaya.
+          </p>
+          <button class="w-[237px] h-[70px] uppercase bg-white text-[#048853]">
+            <b>Temukan Rumah</b>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+    <section class="relative bg-[#F3FFF4]">
+      <p class="text-center pt-[109px] text-[48px] text-[#048853]">
+        <b>Layanan Kami</b>
+      </p>
+      <p class="text-center">Rumah impian hadir menjadi solusi bagi kamu</p>
+      <!-- cards container -->
+      <div class="flex justify-center gap-5 mt-[50px] mb-[173px]">
+        <!-- card -->
+        <div
+          class="w-[380px] h-[313px] linear-green-bg text-white text-center p-[60px] rounded-md"
+        >
+          <div
+            class="w-[70px] h-[70px] bg-white rounded-full flex justify-center items-center mx-auto"
+          >
+            <img src="../assets/images/service-house.png" alt="house" />
+          </div>
+          <p class="mt-[13px] mb-[13px] text-[24px]"><b>Property Baru</b></p>
+          <p class="text-[14px] w-[273px]">
+            Rumah impian kini jadi kenyataan, Beli rumah bary dengan fasilitas
+            terbaik dengan lingkungan yang nyaman.
+          </p>
+        </div>
+        <!-- card -->
+        <div
+          class="w-[380px] h-[313px] text-center p-[60px] bg-white rounded-md"
+        >
+          <div
+            class="w-[70px] h-[70px] bg-[#048853] rounded-full flex justify-center items-center mx-auto"
+          >
+            <img src="../assets/images/service-asset.png" alt="house" />
+          </div>
+          <p class="mt-[13px] mb-[13px] text-[24px] text-[#048853]">
+            <b>Sewa Rumah</b>
+          </p>
+          <p class="text-[14px] w-[273px]">
+            Sewa rumah yang indah untuk keluarga anda, pilihan terbaik untuk
+            tempat tinggal keluarga mu.
+          </p>
+        </div>
+        <!-- card -->
+        <div
+          class="w-[380px] h-[313px] text-center p-[60px] bg-white rounded-md"
+        >
+          <div
+            class="w-[70px] h-[70px] bg-[#048853] rounded-full flex justify-center items-center mx-auto"
+          >
+            <img src="../assets/images/service-town.png" alt="house" />
+          </div>
+          <p class="mt-[13px] mb-[13px] text-[24px] text-[#048853]">
+            <b>Beli Rumah</b>
+          </p>
+          <p class="text-[14px] w-[273px]">
+            Beli Rumah sempurna dengan harga terbaik kualitas terjamin dari
+            sumber terpercaya.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- find section -->
+    <section
+      class="h-[729px] bg-[url('../assets/images/find-background.png')] bg-cover bg-center w-full text-white"
+    >
+      <p class="text-center pt-[122px] font-medium text-[48px]">
+        Temukan Rumah Impianmu
+      </p>
+      <p class="text-center">
+        sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya <br />
+        tersembunyi, dengan ratusan rumah untuk anda
+      </p>
+      <!-- find filter form -->
+      <div class="flex flex-col items-center justify-center">
+        <div class="">
+          <div
+            id="top"
+            class="h-[42px] w-[327px] flex justify-between bg-[rgba(255,255,255,0.6)] rounded-tr-lg rounded-tl-lg mt-[50px]"
+          >
+            <button
+              class="w-[80px] h-[42px] bg-[rgba(255,255,255,0.8)] text-[#048853]"
+            >
+              jual</button
+            ><button class="w-[80px] h-[42px]">Sewa</button
+            ><button class="w-[167px] h-[42px]">Property Baru</button>
+          </div>
+          <div
+            id="bottom"
+            class="bg-[rgba(255,255,255,0.8)] w-[980px] h-[88px] rounded-bl-lg flex justify-between items-center"
+          >
+            <div class="w-[980px] h-[88px] rounded-bl-lg flex items-center">
+              <select
+                name="type"
+                id="type"
+                class="h-[88px] w-[200px] text-[#048853] bg-transparent pl-10"
+              >
+                <option value="#">Tipe Rumah</option>
+              </select>
+              <select
+                name="range"
+                id="range"
+                class="h-[88px] w-[205px] text-[#048853] pl-10 bg-transparent"
+              >
+                <option value="#">Range Harga</option>
+              </select>
+              <input
+                type="text"
+                class="h-[88px] w-[460px] text-[#048853] pl-10 bg-transparent"
+                name="input"
+                id="input"
+                placeholder="cari berdasarkam lokasi, ID, Property"
+              />
+            </div>
+            <button class="bg-[#048853] w-[135px] h-[88px]">Cari</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="h-[270px] bg-black text-white pt-[105px] px-[93px]">
+      <div class="flex justify-between items-center">
+        <div id="logo" class="flex items-center gap-2">
+          <img
+            src="../assets/images/logo.png"
+            alt="logo"
+            width="30px"
+            height="30px"
+          />
+          <b class="text-[20px]">Rumah Impian</b>
+        </div>
+        <div id="menu">
+          <ul class="flex gap-4 uppercase">
+            <li>Beranda</li>
+            <li>Layanan</li>
+            <li>Fitur</li>
+            <li>Kontak</li>
+            <li>Masuk</li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center pt-[50px]">
+        Copyright bg Web Programming Hack All Right Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
