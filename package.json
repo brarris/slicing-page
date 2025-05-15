@@ -1,6 +1,14 @@
 {
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.6",
+    "express": "^5.1.0",
     "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "nodemon": "^3.1.10"
   }
 }

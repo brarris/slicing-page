@@ -1,11 +1,11 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.hero {
-  background: #048853;
+#hero {
+  background-color: #048853;
   background: linear-gradient(
     135deg,
     rgba(4, 136, 83, 1) 0%,
